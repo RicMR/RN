@@ -3,7 +3,7 @@ import java.util.Random;
 public class Perceptron {
 	
 	public static float[] Percep (int max_it, int E, double alpha, int[][] X, int[] d) {
-		 Random gerador = new Random();
+		Random gerador = new Random();
 		float[] w = new float[2];
 		w[0] = gerador.nextFloat();
 		w[1] = gerador.nextFloat();
